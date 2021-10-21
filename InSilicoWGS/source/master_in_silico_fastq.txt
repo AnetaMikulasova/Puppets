@@ -1,0 +1,9 @@
+INCLUDE	ID	PREFIX	REF	REF_INFO
+yes	SAMPLE001	L001	/media/aneta/Data/databases/UCSC/fasta/hg38_1-22.fa	original
+yes	SAMPLE001	L002	/media/aneta/Data/projects/ClinVar_in_silico/ref_edit/hg38_A.simseq.genome.fa	edit_A
+yes	SAMPLE002	L001	/media/aneta/Data/databases/UCSC/fasta/hg38_1-22.fa	original
+yes	SAMPLE002	L002	/media/aneta/Data/projects/ClinVar_in_silico/ref_edit/hg38_B.simseq.genome.fa	edit_B
+yes	CONTROL001	L001	/media/aneta/Data/databases/UCSC/fasta/hg38_1-22.fa	original
+yes	CONTROL001	L002	/media/aneta/Data/databases/UCSC/fasta/hg38_1-22XY.fa	original
+yes	CONTROL011	L001	/media/aneta/Data/databases/UCSC/fasta/hg38_1-22X.fa	original
+yes	CONTROL011	L002	/media/aneta/Data/databases/UCSC/fasta/hg38_1-22X.fa	original

@@ -1,0 +1,3 @@
+INCLUDE	ID	TYPE	BATCH	PLATFORM	CAPTURE	SEQUENCER
+yes	SAMPLE001	sample	batch1	Illumina	wgs	HiSeq2000
+yes	CONTROL001	control	batch1	Illumina	wgs	HiSeq2000

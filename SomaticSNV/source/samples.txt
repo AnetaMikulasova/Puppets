@@ -1,0 +1,3 @@
+INCLUDE	PATIENT_ID	TUMOR_ID	TUMOR_BAM	GERMLINE_ID	GERMLINE_BAM
+yes	PAT1	TUM1	/path/to/bam/tum1.bam	GER1	/path/to/bam/ger1.bam
+yes	PAT2	TUM2	/path/to/bam/tum2.bam	GER2	/path/to/bam/ger2.bam

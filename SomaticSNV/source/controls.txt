@@ -1,0 +1,6 @@
+INCLUDE	PATIENT_ID	CONTROL_ID	CONTROL_BAM
+yes	PAT1	CTRL1	/path/to/bam/ctrl1.bam
+yes	PAT2	CTRL2	/path/to/bam/ctrl2.bam
+yes	PAT3	CTRL3	/path/to/bam/ctrl1.bam
+yes	PAT4	CTRL4	/path/to/bam/ctrl2.bam
+yes	PAT5	CTRL5	/path/to/bam/ctrl1.bam
