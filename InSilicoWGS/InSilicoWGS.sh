@@ -95,16 +95,16 @@ done
 
 cat ${MASTER_IN_SILICO_FASTQ} | awk -F"\t" '$1=="yes"' | while read -r line || [[ -n "$line" ]]; do
 
-ID=$(echo "${line}" | cut -f 2)
-LANE=$(echo "${line}" | cut -f 3)
-REF_FOR_FASTQ=$(echo "${line}" | cut -f 4)
+     ID=$(echo "${line}" | cut -f 2)
+     LANE=$(echo "${line}" | cut -f 3)
+     REF_FOR_FASTQ=$(echo "${line}" | cut -f 4)
 
-echo ${ID}"_"${LANE}" with "$REF_FOR_FASTQ
-$ART -ss HS20 -i ${REF_FOR_FASTQ} -o ${OUTDIR_FASTQ}${ID}"_"${LANE}"_R" -l 100 -f 15 -p -m 500 -s 10
-#remove aln files
-rm ${OUTDIR_FASTQ}${ID}"_"${LANE}*aln
-#compress
-gzip ${OUTDIR_FASTQ}${ID}"_"${LANE}"_R"*".fq"
+     echo ${ID}"_"${LANE}" with "$REF_FOR_FASTQ
+     $ART -ss HS20 -i ${REF_FOR_FASTQ} -o ${OUTDIR_FASTQ}${ID}"_"${LANE}"_R" -l 100 -f 15 -p -m 500 -s 10
+     #remove aln files
+     rm ${OUTDIR_FASTQ}${ID}"_"${LANE}*aln
+     #compress
+     gzip ${OUTDIR_FASTQ}${ID}"_"${LANE}"_R"*".fq"
 
 done 
 
