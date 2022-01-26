@@ -23,7 +23,7 @@ Generating of epigenomic consensus (from chromatin state data) for specific cell
 - sorting ([bedtools](https://bedtools.readthedocs.io/en/latest/content/tools/sort.html)) and joining segments ([bedtools](https://bedtools.readthedocs.io/en/latest/content/tools/merge.html))
 - filtering joined segments by minimal length (or top 5%)
 
-Pipeline generated with BLUEPRINT data from [Carrillo-de-Santa-Pau et al. 2017](https://pubmed.ncbi.nlm.nih.gov/28934481/) and used for genome-wide epigenomic consensus in [Mikulasova et al. 2021](https://www.biorxiv.org/content/10.1101/2020.02.12.938563v1)
+Pipeline generated with BLUEPRINT data from [Carrillo-de-Santa-Pau et al. 2017](https://pubmed.ncbi.nlm.nih.gov/28934481/) and used for genome-wide epigenomic consensus in [Mikulasova et al. 2021](https://pubmed.ncbi.nlm.nih.gov/34933939/)
 
 
 
