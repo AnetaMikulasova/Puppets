@@ -81,7 +81,7 @@ Getting data from [Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra) data
   - narrow/broad peak calling ([MACS2](https://pypi.org/project/MACS2/))
   - converting bedGraph to BigWig ([bedGraphToBigWig](http://hgdownload.soe.ucsc.edu/admin/exe/)
 
-Pipeline was develop to process ChIPseq data based on [BLUEPRINT](http://dcc.blueprint-epigenome.eu/#/md/methods) method. It processes data from [GSE54379](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54379) and [GSE65687](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65687) dataset for T-ALL cell lines KOPT-K1, DND-41 and Jurkat. It was used to process T-ALL data in [Mikulasova et al. 2021](https://www.biorxiv.org/content/10.1101/2020.02.12.938563v1)
+Pipeline was develop to process ChIPseq data based on [BLUEPRINT](http://dcc.blueprint-epigenome.eu/#/md/methods) method. It processes data from [GSE54379](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54379) and [GSE65687](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65687) dataset for T-ALL cell lines KOPT-K1, DND-41 and Jurkat. It was used to process T-ALL data in [Mikulasova et al. 2021](https://pubmed.ncbi.nlm.nih.gov/34933939/)
 
 
 
